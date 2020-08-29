@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Menu
+</title>
+<!-- <link type ="text/css" rel="stylesheet" href="menustyle.css" /> -->
+</head>
+<body>
+
+<div class="container dark">
+    <div class="wrapper" id="firstdiv">
+             <div id="topleft" >
+             email: mkajiwala@gmail.com
+             </div>
+               
+             <div id="topright" >
+             mobie No:9825118634
+             </div>
+            
+             <div id="clear">
+             </div>
+    </div>
+</div>       
+
+<div class="container light">
+   <div class="wrapper"  >
+           <div id="logoleft" >
+           <img src="images\gfrrc.jpg"/>
+           </div>
+
+           <div id="logo_right" >
+           <input id ="textstyle"type="text" name="textbox">
+           <input id = "button" type="button" name="search" value="Search">
+           </div> 
+           
+           <div id="clear">
+           </div>
+  </div>
+</div>
+
+
+<div class="container dark">
+  <div class="wrapper  ">
+    <div id ="color">
+          <div id="menu">
+                <ul>
+                  
+               
+                    <li> <a href="index.php">Master</a></li>
+                    <li> <a href="#">Members </a>
+                       <ul>
+                         <li> <a href="addmember.php">Add-Members</a></li>
+                         <li> <a href="display.php">Member List</a></li>
+                         <li> <a href="memdisplay.php">List With Picture</a></li>
+                        </ul>
+
+                     </li> 
+
+                     
+                    <li> <a href="#">Contact</a>
+                       <ul>
+                         <li> <a href="addcontact.php">Add Contacts</a></li>
+                         <li> <a href="displaycon.php">Contact List</a></li>
+                        </ul>
+                    </li>
+                   
+                    <li> <a href="#">Events</a>
+
+                  <ul>
+                    <li> <a href="addevent.php">Add Events</a></li>
+                    <li> <a href="displayEvent.php">Events-Edit</a></li>
+                    <li> <a href="gallery.php">Gallery</a></li>
+                    <li> <a href="displaynewgallery.php">Gallery-table</a></li>
+                    <li> <a href="displayEventList.php">Event List -Pictures</a></li>
+
+                  </ul>
+
+                    </li>
+                    <li> <a href="#">About Us</a>
+                  <ul>
+                     <li> <a href="#">Contact Us</a></li>
+                     
+                     </ul>
+                     </li>
+                     
+                  </ul>    
+        </div>      
+     </div>
+  </div>
+</div>
+	 
+
+    <div class="container">
+          <div class="wrapper">
+            
+          </div>      
+    </div>
+
+</body>
+</html>
+
+
+
+<style >
+*{
+  margin:0px;
+  padding: 0px;
+}
+
+body{
+  background-color: #e8f3f8;
+}
+
+
+.container
+{
+    
+   width: 100%;
+}
+
+.wrapper
+{
+    width: 900px;
+    margin: auto;
+}
+
+.dark
+{
+  background-color: #31353d;
+  color: white;
+}
+
+.light
+{
+  background-color: #e9edf2;
+}
+
+#menu
+{
+margin-left:55px;
+}
+#menu ul{
+  list-style: none;
+  }
+
+#menu ul li{
+  background-color: steelblue;
+  width: 135px;
+  display: inline-block;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  position: relative;
+  border-radius: 8px;
+}
+#menu ul li a{
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+#menu ul li a:hover{
+  background-color: orange;
+  border-radius: 8px;
+}
+
+#menu ul ul
+{
+  position: absolute;
+  display: none;
+ }
+
+#menu ul li:hover ul
+{
+  display: block;
+ }
+#color
+{
+  background-color: black;
+}
+
+#topleft{
+  display: inline-block;
+  
+}
+
+#topright{
+  float: right;
+}
+
+#firstdiv{
+  height: 40px;
+  line-height: 40px;
+}
+
+#logoleft{
+  border: 3px solid white;
+  height: 156px;
+  display: inline-block;
+  float: left;
+}
+#logo_right{
+  display: inline-block;
+  float: right;
+  margin-top: 70px;
+  border: 5px green;
+}
+
+#textstyle {
+  height: 30px;
+  border-radius:8px; 
+}
+
+#button{
+width: 70px;  
+padding: 7px;
+background-color:green;
+border-radius: 8px;
+color: white; 
+border: 1px solid green
+}
+
+#clear{
+  clear: both;
+}
+
+
+
+
+</style>

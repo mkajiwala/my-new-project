@@ -1,0 +1,386 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #e8f3f8;
+}
+
+
+.container
+{
+   width: 100%;
+}
+
+.wrapper
+{
+	width: 900px;
+    margin: auto;
+}
+
+.dark
+{
+	background-color: #31353d;
+	color: white;
+}
+
+.light
+{
+	background-color: #e9edf2;
+}
+
+#clear{
+	clear: both;
+}
+#firstdiv{
+	height: 30px;
+	line-height: 30px;
+	/*background-color: steelblue;*/
+}
+
+input[type=text],  select, textarea{
+	width: 100%px;
+	padding:12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	resize: vertical;
+}
+
+label{
+	padding: 12px 12px 12px;
+	display: inline-block;
+}
+input[type=submit] {
+	background-color: #4CAa50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius :4px;
+    cursor: pointer;
+    float: right;
+}
+#insert {
+	width: 350px;
+	margin-top: 30px;
+	margin-left: 20%;
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+
+
+.col {
+	float: left;
+	width: 75%;
+	margin-top: 6px;
+	display: table;
+	clear: both;
+}
+
+#topleft 
+{
+	display: inline-block;
+	float: left;
+}
+#topright 
+{
+	float: right;
+}
+
+
+#logoleft{
+	height: 156px;
+	display: inline-block;
+	float: left;
+}
+#logo_right{
+	display: inline-block;
+	float: right;
+	margin-top: 70px;
+}
+
+#textstyle {
+	height: 30px;
+	border-radius:8px;
+	width: 120px; 
+}
+
+
+#button{
+width: 90px;	
+padding: 7px;
+background-color: green;
+border-radius: 8px;
+color: white;	
+border: 1px solid green;
+}
+
+ul li{
+	
+	width: 170px;
+	display: inline-block;
+	background-color: steelblue;
+	height: 35px;
+	line-height: 35px;
+	text-align:center;
+}	
+	
+	
+ul li a{
+color: white;
+text-decoration: none;
+display: block;
+}	
+
+ul li a:hover{
+background-color: orange;
+color: black;
+}
+
+#second{
+	border: 3px solid red;
+	height: 50px;
+
+}
+#outerbox{
+	
+	width: 700px;
+    overflow: hidden;
+    border: 10px solid Grey;
+    border-radius: 8px;
+    margin-left: 90px;
+    margin-top: 55px;    
+    
+}
+
+#sliderbox{
+	
+	position:relative;
+	width: 2800px;
+	animation-name:mrk;
+	animation-duration:20s ;
+	animation-iteration-count: infinite;
+
+}
+#menubar{
+	background-color: steelblue;
+	/*border: 1px solid red;*/
+}
+
+#sliderbox img
+{
+	float: left;
+
+}
+#sample
+{
+	height: 170px;
+	 
+}
+
+#bottom_div{
+	border: 3px solid red;
+}
+
+#bottom_div img {
+	border: 5px red;
+	margin: 10px;
+	border-radius: 5px
+	padding:5px;
+	
+
+}  
+*{
+  margin:0px;
+  padding: 0px;
+}
+
+body{
+	background-color: #e8f3f8;
+}
+
+
+.container
+{
+	  
+   width: 100%;
+}
+
+.wrapper
+{
+    width: 900px;
+    margin: auto;
+}
+
+.dark
+{
+	background-color: #31353d;
+	color: white;
+}
+
+.light
+{
+	background-color: #e9edf2;
+}
+
+#menu
+{
+margin-left:55px;
+}
+#menu ul{
+	list-style: none;
+    /*border: 3px solid red; */
+	/*width: 900px;*/
+}
+
+#menu ul li{
+	background-color: green;
+	width: 135px;
+    display: inline-block;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	position: relative;
+	border-radius: 8px;
+
+}
+#menu ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+
+#menu ul li a:hover
+{
+	
+	background-color: orange;
+	border-radius: 8px;
+}
+
+#menu ul ul
+{
+	
+	position: absolute;
+	display: none;
+	
+}
+
+#menu ul li:hover ul
+{
+	
+	display: block;
+	
+}
+#color
+{
+	
+	background-color: black;
+
+}
+
+#topleft{
+	display: inline-block;
+	
+}
+
+#topright{
+	float: right;
+}
+
+#firstdiv{
+	height: 40px;
+	line-height: 40px;
+}
+
+#logoleft{
+	border: 3px solid white;
+	height: 156px;
+	display: inline-block;
+	float: left;
+}
+#logo_right{
+	display: inline-block;
+	float: right;
+	margin-top: 70px;
+	border: 5px green;
+}
+
+#textstyle {
+	height: 30px;
+	border-radius:8px; 
+}
+
+#button{
+width: 70px;	
+padding: 7px;
+background-color:green;
+border-radius: 8px;
+color: white;	
+border: 1px solid green
+}
+
+#clear{
+	clear: both;
+}
+
+
+.gallery {
+ border: 1px solid red; 
+  margin:50px 50px;  
+}
+
+.gallery img
+{
+  transition: 1s;
+  padding: 15px;
+  width: 200px;
+}
+
+.gallery img:hover{
+
+filter: grayscale(100%);
+transform: scale(1.1);
+}
+
+
+@keyframes mrk{
+	0%
+	{
+		left: 0px;
+	}
+	20%
+    {
+    	left: 0px;
+    }
+    25%
+    {
+    	left:-700px;
+    }
+    45%
+    {
+    	left:-700px;
+    }
+    50%
+    {
+    	left:-1400px;
+    }
+    70%
+    {
+    	left:-1400px;
+    }
+    75%
+    {
+    	left:-2100px;
+    }
+    95%
+    {
+    	left:-2100px;
+    }
+    100%
+    {
+    	left:-2800px;
+    }
+
